@@ -1,7 +1,7 @@
 # Movie
 Project work from Android Nano Degree
 
-To make this work you will need to create an interface called Properties in com.example.android.movies and copy in the below with a moviedb API key.
+To make this work you will need to create an interface called Properties in /app/src/main/java/com/example/android/movies and copy in the below with a moviedb API key.
 
 ---
 package com.example.android.movies;
