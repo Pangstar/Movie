@@ -7,5 +7,4 @@
 /build
 /captures
 .externalNativeBuild
-/app/src/main/java/com.example.android.movies/Properties
 app/src/main/java/com/example/android/movies/Properties.java
