@@ -1,14 +1,6 @@
 # Movie
 Project work from Android Nano Degree
 
-To make this work you will need to create an interface called Properties in /app/src/main/java/com/example/android/movies and copy in the below with a moviedb API key.
+To make this work you will need to add your api key to the NetworkUtils.class. Please update the String variable shown below.
 
----
-package com.example.android.movies;
-
-public interface Properties {
-
-    public static final String API_KEY = "123qwe123qwe1223qwe123qwe";
-
-}
----
+public static final String API_KEY = "PLEASE ENTER YOUR OWN API KEY HERE";
