@@ -83,9 +83,18 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
 
 //        movieAdapterViewHolder.mMovieTextView.setText(movie.getmTitle());
 
-        Picasso.with(movieAdapterViewHolder.mMovieImageView.getContext()).load(String.valueOf(movie.getmImageUrl())).into(movieAdapterViewHolder.mMovieImageView);
+        Picasso
+                .with(movieAdapterViewHolder.mMovieImageView.getContext())
+                .load(String.valueOf(movie.getmImageUrl()))
+                .placeholder(R.drawable.user_placeholder)
+                .error(R.drawable.user_placeholder_error)
+                .into(movieAdapterViewHolder.mMovieImageView);
+
 
     }
+
+
+
 
     @Override
     public int getItemCount() {

@@ -16,12 +16,14 @@ import java.util.Scanner;
  * Created by yau_c on 20/01/2017.
  */
 
-public class NetworkUtils implements Properties {
+public class NetworkUtils {
 
     private static final String TAG = NetworkUtils.class.getSimpleName();
 
     private static final String STATIC_BASE_URL =
             "http://api.themoviedb.org/3/movie";
+
+    public static final String API_KEY = "PLEASE ENTER YOUR OWN API KEY HERE";
 
     final static String QUERY_PARAM = "api_key";
 
